@@ -24,7 +24,8 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
   entryComponents: [
     MyApp,
     HomePage,
-    HistoriaPage
+    HistoriaPage,
+    DibujoPage
   ],
   providers: [
     StatusBar,
