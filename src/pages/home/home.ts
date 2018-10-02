@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { PyEPage } from '../py-e/py-e';
 import { CsPage } from '../cs/cs';
+import { ComPage } from '../com/com';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ export class HomePage {
   dibujo=DibujoPage;
   pye=PyEPage;
   CS=CsPage;
+  COM=ComPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -29,6 +31,9 @@ export class HomePage {
   }
   clickCs(){
     this.navCtrl.push(this.CS)
+  }
+  clickCom(){
+    this.navCtrl.push(this.COM)
   }
 
 }
