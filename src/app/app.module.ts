@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PyEPage } from '../pages/py-e/py-e';
 import { CsPage } from '../pages/cs/cs';
 import { ComPage } from '../pages/com/com';
+import { RoboPage } from '../pages/robo/robo';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComPage } from '../pages/com/com';
     DibujoPage,
     PyEPage,
     CsPage,
-    ComPage
+    ComPage,
+    RoboPage
 
   ],
   imports: [
@@ -35,7 +37,8 @@ import { ComPage } from '../pages/com/com';
     DibujoPage,
     PyEPage,
     CsPage,
-    ComPage
+    ComPage,
+    RoboPage
 
   ],
   providers: [
