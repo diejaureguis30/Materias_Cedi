@@ -37,7 +37,7 @@ export class HomePage {
   clickCom(){
     this.navCtrl.push(this.COM)
   }
-  clickRob(){
+  clickROB(){
     this.navCtrl.push(this.Robo)
   }
 
